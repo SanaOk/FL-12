@@ -196,7 +196,6 @@
         background-size: contain;
         width: 30px;
         height: 30px;
-        display: block;
         position: absolute;
         right: 10px;
         bottom: 10px;
@@ -210,11 +209,3 @@
         border-color: transparent;
     }
 }
-
-
-
-
-
-
-
-
