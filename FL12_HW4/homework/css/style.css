@@ -54,6 +54,8 @@ body {
 
 .banner {
     background: url("../img/home-bg.jpg") left 83px/cover no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0, 0.7);
     height: 100vh;
     display: flex;
     flex-direction: column;
