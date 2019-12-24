@@ -6,6 +6,7 @@ const four = 4;
 
 if (isNaN(a) || isNaN(b) || isNaN(c) ||
     a === '' || b === '' || c === '' ||
+    a.includes(' ') || b.includes(' ') || c.includes(' ') ||
     a === '0'
 ) {
     console.log('Invalid input data')
@@ -25,6 +26,4 @@ if (isNaN(a) || isNaN(b) || isNaN(c) ||
     } else if (d < 0) {
         console.log('No solution');
     }
-
 }
-
