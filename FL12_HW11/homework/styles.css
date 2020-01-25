@@ -1,0 +1,32 @@
+#root {
+    cursor: pointer;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.material-icons {
+    vertical-align: text-bottom;
+    font-size: 16px;
+}
+
+.folder-icon {
+    color: orange;
+}
+
+.file-icon {
+    color: lightgrey;
+}
+
+.disabled > ul, .disabled + .empty-folder {
+    display: none;
+}
+
+.empty-folder {
+    font-style: italic;
+}
+
+.wrapper:hover {
+    background-color: #f2f2f2;
+}
