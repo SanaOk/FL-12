@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 12 - Simple TODO List</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div id="root">
+      <div id="main" class="content visible">
+          <div class="right">
+              <a class="button" href="#/add">Add new</a>
+          </div>
+          <div id="unstudied_items"></div>
+          <div id="studied_items"></div>
+      </div>
+      <div id="add_new_set" class="content">
+          <form id="new_set">
+              <input type="text" id="set_name" placeholder="Set's name" required>
+              <button class="button" type="button" onclick="onAddTermClick()">Add terms</button>
+              <button class="button" type="submit" id="save_changes" onclick = onChangeSave()>Save changes</button>
+              <a class="button" href="#">Cancel</a>
+          </form>
+      </div>
+      <div id="modify" class="content">
+          <form id="modify_set">
+              <input type="text" id="modify_set_name" placeholder="Set's name" required>
+              <a href="#" id="modify_save_changes">Save changes</a>
+              <a href="#">Cancel</a>
+          </form>
+      </div>
+  </div>
+
+  <script src="./src/app.js"></script>
+</body>
+</html>

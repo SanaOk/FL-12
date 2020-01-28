@@ -1,0 +1,26 @@
+.right {
+    text-align: right;
+}
+
+.button{
+    display: inline-block;
+    padding: 5px;
+    background-color: dodgerblue;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+#unstudied_items>* {
+    padding: 10px;
+    border:1px solid dodgerblue;
+    margin: 5px;
+}
